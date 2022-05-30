@@ -1,0 +1,17 @@
+*{
+    margin: 1;
+    padding: 1;
+    box-sizing: border-box;
+}
+header{
+    border: 1px solid;
+    display: flex;
+    height: 5vh;
+    align-items:center ;
+    justify-content: space-between;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
