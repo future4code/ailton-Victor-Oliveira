@@ -9,29 +9,25 @@ header{
     background-color: rgb(224, 116, 9);
 }
 main{
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     height: 50vh;
     width: 100vw;
     margin: auto;
-    background-color: rgb(236, 240, 240);
+    background-color: white;
     grid-template-rows: 2fr 2fr
                         ;
     grid-template-columns: 4fr 4fr 4fr 4fr;                    
 }
-
+    
 footer{
     display: grid;
     height: 8vh;
-    background-color: rgb(98, 188, 208);
+    background-color: white;
+    justify-content: center;
 }
-.card{
-    border: 1px solid black;
-    width: 135px;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-}
+
 img{
-    height: 170px;
-    width: 200px;
+    height: 10em;
+    width:      ;
 }
